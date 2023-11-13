@@ -2,6 +2,10 @@
     color: crimson;
 }
 
+.black {
+    color: #000000;
+}
+
 .btn {
     background-color: darkblue;
     border-radius: 10px;

@@ -11,7 +11,7 @@ export default function Layout({ children }: Layout) {
             <div className="w-full flex-none md:w-64">
                 <SideNav />
             </div>
-            <div className={`flex-grow p-6 md:overflow-y-auto md:p-12 ${styles.crimson}`}>{children}</div>
+            <div className={`flex-grow p-6 md:overflow-y-auto md:p-12 ${styles.black}`}>{children}</div>
         </div>
     );
 }
