@@ -7,7 +7,7 @@ type Layout = {
 
 export default function Layout({ children }: Layout) {
     return (
-        <div className="flex h-screen flex-col md:flex-row md:overflow-hidden">
+        <div className={`${styles.blue} flex h-screen flex-col md:flex-row md:overflow-hidden`}>
             <div className="w-full flex-none md:w-64">
                 <SideNav />
             </div>
