@@ -9,6 +9,7 @@ import { lusitana } from '../ui/fonts';
 export default async function Page() {
     const cardData = await fetchCardData();
     const { totalPaidInvoices, totalPendingInvoices, numberOfInvoices, numberOfCustomers } = cardData;
+    console.log('totalPaidInvoices:', totalPaidInvoices);
 
     return (
         <main>
