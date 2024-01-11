@@ -1,5 +1,5 @@
 import { Suspense } from 'react';
-import { fetchCardData, fetchLatestInvoices } from '../lib/data';
+import { fetchCardData } from '../lib/data';
 import { Card } from '@/app/ui/dashboard/cards';
 import LatestInvoices from '@/app/ui/dashboard/latest-invoices';
 import RevenueChart from '@/app/ui/dashboard/revenue-chart';
